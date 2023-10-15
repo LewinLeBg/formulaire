@@ -1,0 +1,47 @@
+h1{
+    text-align: left;
+    
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-example{
+    margin-top: 5px;
+    
+}
+body{
+    
+}
+
+.box {
+    display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+  background-color: rgb(166, 170, 166);
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  
+ margin-left: 540px;
+   width: fit-content;
+   height: fit-content;
+ 
+  }
+  .un {
+    grid-column: 4/7;
+    grid-row: 2/7;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+  }
+footer{
+    text-align: end;
+    text-align: left;
+    margin-bottom: 50px;
+}
